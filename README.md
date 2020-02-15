@@ -16,8 +16,11 @@ Flask is a micro web framework written in Python
 
 ### Some methods on how I approached the project:
 Method1) Preprocessing Stage: converted the given string's letter case to lowercase, removed punctuations (except apostrophe for a reason), single characters (as they do not contribute to similarity prediction) and finally removed stop_words which has very less in fact minimal contribution to text similarity
+
 Method2) Mapped two words as single block and modified the strings (Order of words plays major role)
+
 Method3) Use Jaccard Index method to calculate the similarity index of two strings using union and intersecton set concepts
+
 Method4) Flask was used to create and API which accepts two strings and returns the similarity index
 
 ### Installing and Running 
@@ -32,4 +35,5 @@ Step 3) Execute the following command
     $ python app.py
 Step 4) Copy the link from your program's output and run the same in your browser:
     Example program OUTPUT:- `Running on http://127.0.0.1:5000/`
+
 Step 5) Enter two strings and check for similarity index by hitting "Similarity Check"
