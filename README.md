@@ -34,6 +34,10 @@ Step 3) Execute the following command
 
     $ python app.py
 Step 4) Copy the link from your program's output and run the same in your browser:
-    Example program OUTPUT:- `Running on http://127.0.0.1:5000/`
+
+Example program OUTPUT:- `Running on http://127.0.0.1:5000/`
 
 Step 5) Enter two strings and check for similarity index by hitting "Similarity Check"
+
+### Video Demonstration
+https://drive.google.com/open?id=1hQJcB5VwAEwcYy-ZikC9QnN3Bj5bxpcs
