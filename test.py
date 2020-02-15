@@ -33,7 +33,4 @@ def similarity(str1, str2):
     similarity12=0
     similarity12=(len(x)/(len(up_s1)+len(up_s2)-len(x)))
 
-    if similarity12>0.2:
-        return 1
-    else:
-        return 0
+    return similarity12
